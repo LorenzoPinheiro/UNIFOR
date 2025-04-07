@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GigaGym</string>
+
+    <string-array name="opcoes_spinner">
+        <item>Masculino</item>
+        <item>Feminino</item>
+    </string-array>
+</resources>
