@@ -50,7 +50,7 @@ public abstract class AbstractHashTable<K,V> implements Map<K,V>{
     protected int size;
 
     public AbstractHashTable(int mapSize) {
-        hashTable = (Node[]) new Node[mapSize];
+        hashTable = (Node[]) new AbstractHashTable<?,?>.Node[mapSize];;
     }
 
     public int hashCode(String key){
